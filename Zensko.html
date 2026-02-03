@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stil.css">
+    <link rel="icon" href="mmm.png">
+    <title>Mutro</title>
+</head>
+<body>
+    <img src="mmm.png" width="100px" height="80px">
+    <a class="prijava" href="prijava.html">prijavi me</a>
+    <ul>
+        <li><a href="Pocetna.html">Početna</a></li>
+        <li><a href="Kontakt.html">Kontakt</a></li>
+        <li><a href="Korpa.html">Korpa</a></li>
+    </ul> 
+    
+    <br><br>
+    
+    <div class="row">
+        <div class="column">
+            <div class="karta1">
+                <p class="price">Broj proizvoda: 86938462</p>
+        <img src="shirtF.png" alt="white shirt" style="width:100%">
+        <h1 >Ružičaste patike</h1>
+        <p class="price">2000RSD</p>
+        <p><button onclick="shirtf()" id="shirtf">Dodajte u korpu</button></p>
+    
+        </div>
+        </div>
+        <div class="column">
+            <div class="karta1">
+                <p class="price">Broj proizvoda: 94856239</p>
+        <img src="redshirtF.png" alt="red shirt" style="width:100%">
+        <h1 >Sandale</h1>
+        <p class="price">1200RSD</p>
+        <p><button onclick="redshirtf()" id="redshirtf">Dodajte u korpu</button></p>
+        </div>
+    </div>
+        <div class="column">
+            <div class="karta1">
+                <p class="price">Broj proizvoda: 72849385</p>
+        <img src="yellowshirtF.png" alt="yellow shirt" style="width:100%">
+        <h1 >Papuče</h1>
+        <p class="price">1000RSD</p>
+        <p><button onclick="yellowshirtf()" id="yellowshirtf">Dodajte u korpu</button></p>
+        </div>
+    </div>
+        <div class="column">
+            <div class="karta1">
+                <p class="price">Broj proizvoda: 92848607</p>
+        <img src="sweatF.png" alt="sweatpants" style="width:100%">
+        <h1 >Crvene cipele</h1>
+        <p class="price">1800RSD</p>
+        <p><button onclick="sweatf()" id="sweatf">Dodajte u korpu</button></p>
+        </div>
+    </div>
+        <div class="column">
+            <div class="karta1">
+                <p class="price">Broj proizvoda: 10573845</p>
+        <img src="pantsF.png" alt="pants" style="width:100%">
+        <h1 >Čizme</h1>
+        <p class="price">1200RSD</p>
+        <p><button onclick="pantsf()" id="pantsf">Dodajte u korpu</button></p>
+         </div>
+        </div>
+        <div class="column">
+            <div class="karta1">
+                <p class="price">Broj proizvoda: 01756923</p>
+        <img src="shoesF.png" alt="shoes" style="width:100%">
+        <h1 >Plave patike</h1>
+        <p class="price">2000RSD</p>
+        <p><button onclick="shoesf()" id="shoesf" >Dodajte u korpu</button></p>
+        </div>
+        </div>
+        </div>
+        <script> 
+            function shoesf(){
+                alert("Uspešno je dodato u korpu");
+                document.getElementById("korpalista").value="Ženske patike 2000RSD";
+            }
+            function shirtf(){
+                alert("Uspešno je dodato u korpu");
+                document.getElementById("korpalista").value=="";
+            }
+            function redshirtf(){
+                alert("Uspešno je dodato u korpu");
+                document.getElementById("korpalista").value=="";
+            }
+            function yellowshirtf(){
+                alert("Uspešno je dodato u korpu");
+                document.getElementById("korpalista").value=="";
+            }
+            function sweatf(){
+                alert("Uspešno je dodato u korpu");
+                document.getElementById("korpalista").value=="";
+            }
+            function pantsf(){
+                alert("Uspešno je dodato u korpu");
+                document.getElementById("korpalista").value=="";
+            }
+        </script>
+</body>
+</html>

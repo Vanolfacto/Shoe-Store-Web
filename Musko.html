@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stil.css">
+    
+    <link rel="icon" href="mmm.png">
+    <title>Mutro</title>
+</head>
+<body>
+    <img src="mmm.png" width="100px" height="80px">
+    <a class="prijava" href="prijava.html">prijavi me</a>
+    <ul>
+        <li><a href="Pocetna.html">Početna</a></li>
+        <li><a href="Kontakt.html">Kontakt</a></li>
+        <li><a href="Korpa.html">Korpa</a></li>
+    </ul> 
+    
+    <br><br>
+    
+    
+        <div class="row">
+        <div class="column">
+            <div class="karta1">
+        <p class="price">Broj proizvoda: 02935127</p>
+        <img src="shirt.png" alt="white shirt" style="width:100%">
+        <h1 >Plavo-Zelene patike</h1>
+        <p class="price">2000RSD</p>
+        <p><button onclick="shirt()" value="Muška bela majica 500RSD" id="shirt">Dodajte u korpu</button></p>
+    
+        </div>
+        </div>
+        <div class="column">
+            <div class="karta1">
+                <p class="price">Broj proizvoda: 19235674</p>
+        <img src="redshirt.png" alt="red shirt" style="width:100%">
+        <h1 >Čizme</h1>
+        <p class="price">1700RSD</p>
+        <p><button onclick="redshirt()" value="Muška crvena majica 600RSD" id="redshirt">Dodajte u korpu</button></p>
+        </div>
+    </div>
+        <div class="column">
+            <div class="karta1">
+                <p class="price">Broj proizvoda: 02759347</p>
+        <img src="yellowshirt.png" alt="yellow shirt" style="width:100%">
+        <h1 >Papuče</h1>
+        <p class="price">1000RSD</p>
+        <p><button onclick="yellowshirt()" value="Muška žuta majica 600RSD" id="yellowshirt">Dodajte u korpu</button></p>
+        </div>
+    </div>
+        <div class="column">
+            <div class="karta1">
+                <p class="price">Broj proizvoda: 86046328</p>
+        <img src="sweat.png" alt="sweatpants" style="width:100%">
+        <h1 >Sandale</h1>
+        <p class="price">1400RSD</p>
+        <p><button onclick="sweat()" value="Muška trenerka 800RSD" id="sweat">Dodajte u korpu</button></p>
+        </div>
+    </div>
+        <div class="column">
+            <div class="karta1">
+                <p class="price">Broj proizvoda: 83650231</p>
+        <img src="pants.png" alt="pants" style="width:100%">
+        <h1 >Plave cipele</h1>
+        <p class="price">1800RSD</p>
+        <p><button onclick="pants()" value="Muške pantalone 1200RSD" id="pants">Dodajte u korpu</button></p>
+         </div>
+        </div>
+        <div class="column">
+            <div class="karta1">
+                <p class="price">Broj proizvoda: 83966153</p>
+        <img src="shoes.png" alt="shoes" style="width:100%">
+        <h1 >Narandžaste Patike</h1>
+        <p class="price">2000RSD</p>
+        <p><button onclick="shoes()" value="Muške patike 2000RSD" id="shoes">Dodajte u korpu</button></p>
+        </div>
+        </div>
+        </div>
+
+        <script> 
+            function shoes(){
+                alert("Uspešno je dodato u korpu");
+                document.getElementById("korpalista").value=document.getElementById("shoes").value;
+            }
+            function shirt(){
+                alert("Uspešno je dodato u korpu");
+                document.getElementById("korpalista").value==document.getElementById("shirt").value;
+            }
+            function redshirt(){
+                alert("Uspešno je dodato u korpu");
+                document.getElementById("korpalista").value==document.getElementById("redshirt").value;
+            }
+            function yellowshirt(){
+                alert("Uspešno je dodato u korpu");
+                document.getElementById("korpalista").value==document.getElementById("yellowshirt").value;
+            }
+            function sweat(){
+                alert("Uspešno je dodato u korpu");
+                document.getElementById("korpalista").value==document.getElementById("sweat").value;
+            }
+            function pants(){
+                alert("Uspešno je dodato u korpu");
+                document.getElementById("korpalista").value==document.getElementById("pants").value;
+            }
+        </script>
+</body>
+</html>

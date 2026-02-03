@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava</title>
+    <link rel="stylesheet" href="prijava.css">
+    <link rel="icon" href="mmm.png">
+</head>
+<body>
+    <div class="form">
+      
+        <ul class="tab-group">
+          <li class="tab active"><a href="#signup">Sign Up</a></li>
+          <li class="tab"><a href="#login">Log In</a></li>
+        </ul>
+        
+        <div class="tab-content">
+          <div id="signup">   
+            <h1>Prijavite se</h1>
+            
+            <form action="sigunp.php" method="post">
+            
+            <div class="top-row">
+              <div class="field-wrap">
+                <label>
+                  Ime<span class="req">*</span>
+                </label>
+                <input type="text" name="nFirstName" required autocomplete="on" />
+              </div>
+          
+              <div class="field-wrap">
+                <label>
+                  Prezime<span class="req">*</span>
+                </label>
+                <input type="text" name="nLastName" required autocomplete="on"/>
+              </div>
+            </div>
+  
+            <div class="field-wrap">
+              <label>
+                E-mail<span class="req">*</span>
+              </label>
+              <input type="email" name="nEmail" required autocomplete="on"/>
+            </div>
+            
+            <div class="field-wrap">
+              <label>
+                Postavite lozinku<span class="req">*</span>
+              </label>
+              <input type="password" name="nPass" required autocomplete="off"/>
+            </div>
+            <div class="field-wrap">
+              <label>
+                Potvrdite lozinku<span class="req">*</span>
+              </label>
+              <input type="password" name="nRePass" required autocomplete="off"/>
+            </div>
+            
+            <button type="submit" name="nSignup" class="button button-block"/>Započnite</button>
+            
+            </form>
+  
+          </div>
+          
+          <div id="login">   
+            <h1>Dobrodošli!</h1>
+            
+            <form action="login.php" method="post">
+            
+              <div class="field-wrap">
+              <label>
+                E-mail<span class="req">*</span>
+              </label>
+              <input type="email" name="nEmail" required autocomplete="off"/>
+            </div>
+            
+            <div class="field-wrap">
+              <label>
+                Lozinka<span class="req">*</span>
+              </label>
+              <input type="password" name="nPass" required autocomplete="off"/>
+            </div>
+            
+            <button class="button button-block"/>Log In</button>
+            
+            </form>
+  
+          </div>
+          
+        </div><!-- tab-content -->
+        
+  </div> <!-- /form -->
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,263 @@
+body {
+    background-color: grey;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+ a{
+  text-decoration: none;
+  font-weight: bold;
+ }
+  li {
+    float: left;
+    
+  }
+  li:hover{
+    background-color: rgb(42, 41, 41);
+  }
+  .prijava{
+    position:absolute;
+    right:3%;
+    top: 7%;
+    font-family: Arial;
+    background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  }
+  .prijava:hover {
+    background-color: black;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: Arial;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    
+  }
+  .yeah{
+    border: 10px solid rgb(124, 119, 119);
+  }
+   .zensko{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 45px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  }
+   .musko{
+    position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 45px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  }
+   .decije{
+    position: absolute;
+  top: 50%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 45px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  }
+  .musko:hover {
+    background-color: black;
+  }
+  .zensko:hover {
+    background-color: black;
+  }
+  .decije:hover {
+    background-color: black;
+  }
+  .dugme{
+    background-color: rgb(59, 56, 56);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  }
+  .dugme:hover {
+    background-color: black;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .kon {
+     
+    font-size: 45px;
+    font-family: Arial;
+    color: white;
+    text-shadow: 3px 3px black;
+    text-align: justify;
+
+    }
+    .kon2{ font-size: 75px;
+      font-family: Arial;
+      color: white;
+      text-shadow: 3px 3px black;
+      text-align: center;
+
+    }
+    
+    .autorkutija{
+      text-align: center;
+    }
+
+    .korpa{
+      font-size: 45px; 
+    margin: auto;
+      text-align: center;
+    }
+    .korpa button{
+      width: 15%;
+      padding: 40px 10px;
+      margin: 8px 0;
+      display: inline-block;
+      font-size: 30px;
+    }
+    .korpa input[type=text]{
+      width: 34%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+    }
+    .korpa textarea{
+      width: 50%;
+     
+      padding: 60px 10px;
+      margin: 8px 0;
+      display: inline-block;
+    }
+
+    .reklamacija{
+      font-size: 45px; 
+    margin: auto;
+      text-align: center;
+    }
+
+   .reklamacija button{
+      width: 15%;
+      padding: 40px 10px;
+      margin: 8px 0;
+      display: inline-block;
+      font-size: 30px;
+    }
+    .reklamacija input[type=text]{
+      width: 15%;
+      padding: 10px 16px;
+    }
+   
+
+    .velicina button{
+      width: 15%;
+      padding: 35px 10px;
+      margin: auto;
+      font-size: 30px;
+      display: grid;
+      
+    }
+
+    .price {
+      color: grey;
+      font-size: 22px;
+    }
+
+    .karta1 button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+
+    .karta1 button:hover {
+      opacity: 0.7;
+    }
+    .karta1{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 1%;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+    }
+    
+    .column {
+      float: left;
+      width: 16.13%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .column1 {
+      float:left;
+      width: 25.13%;
+      padding: 10px;
+      
+    
+    }
+    
+    /* Clearfix (clear floats) */
+    .row1::after {
+      content: "";
+      clear: both;
+      display: table;
+      
+    }
+  
+    .komentar{
+      height: 200px; 
+      width:700px;
+    }
